@@ -17,9 +17,9 @@
 
 ## Sobre o projeto
 
-Projeto criado como desafio de projeto do curso de Angular da DIO.
+Projeto criado como desafio de projeto do bootcamp de Angular da DIO.
 
-Durante esse projeto teremos ajuda do professor com dicas desde como idealizar o projeto até as etapas de colocar o código em prática.
+Durante esse projeto tivemos ajuda do professor com dicas desde como idealizar o projeto até as etapas de colocar o código em prática.
 
 O resultado do projeto:
 
