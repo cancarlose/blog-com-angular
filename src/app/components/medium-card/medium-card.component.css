@@ -1,0 +1,59 @@
+.medium-card__container {
+  width: 300px;
+  height: 375px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.medium-card__img {
+  height: 200px;
+  width: 100%;
+  min-width: 300px;
+  border-radius: 5px;
+}
+
+.medium-card__content__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  margin: 1px;
+}
+
+.medium-card__title {
+  color: #0e1162;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+  margin-top: 5px;
+}
+
+.medium-card__description {
+  font-size: 0.8rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #898fa6;
+
+}
+
+.medium-card__button {
+  border-radius: 5px;
+  border: solid #8447fa 1px;
+
+  color: #0e1162;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 0.6rem;
+  text-align: center;
+
+  width: 80px;
+  padding: 6px 3px;
+
+  margin-left: -1px;
+  margin-top: 15px;
+
+}
+
+.medium-card__button:hover {
+  background-color: #8447fa;
+  color: #fff;
+}

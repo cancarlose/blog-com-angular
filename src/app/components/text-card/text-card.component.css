@@ -1,0 +1,25 @@
+.text-card__container{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  width: 300px;
+  height: 130px;
+
+}
+
+.text-card__title > h3{
+  font-size: 1rem;
+
+}
+
+.text-card__description > p{
+  font-size: 0.75rem;
+}
+
+.text-card__link > a{
+  text-decoration: underline;
+  color: #ae86fa;
+  font-size: 0.7rem;
+}
+

@@ -1,0 +1,14 @@
+*{
+  /* Zerando configurações de margin, padding e tamanho da caixa para evitar problemas dependendo do navegador */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* Definindo cor de fundo */
+  background-color: #ffffff;
+
+}
+
+header{
+  border: 1px solid grey;
+}

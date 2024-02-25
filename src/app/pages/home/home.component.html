@@ -1,0 +1,25 @@
+<app-banner [image]="newsArray[0].image"
+  [title]="newsArray[0].title" [description]="newsArray[0].description" [newsId]="newsArray[0].id">
+</app-banner>
+
+<div class="cards__container">
+
+  <div class="medium-cards">
+    <app-medium-card *ngFor="let news of mediumCardNews" [photo]="news.image" [title]="news.title"
+      [description]="news.description" [newsId]="news.id"></app-medium-card>
+  </div>
+
+  <div class="text-cards">
+    <app-text-card *ngFor="let news of textCardNews" [title]="news.title" [description]="news.description"
+      [newsId]="news.id"></app-text-card>
+  </div>
+</div>
+
+<div class="cards__others">
+
+  <div class="small-cards">
+    <app-small-card *ngFor="let news of smallCardNews" [image]="news.image" [title]="news.title" [description]="news.description"
+      [newsId]="news.id" newsId="1"></app-small-card>
+  </div>
+
+</div>
